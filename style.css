@@ -1,2 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+}
+
+.banner {
+    background-image: url(images/desktop/image-header.jpg);
+    height: 80vh;
+    min-height: 600px;
+    background-position: center bottom;
+    flex-direction: column;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu span {
+    margin-right: 30px;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+    padding: 8px 30px;
+    border-radius: 20px;
+    transition: 0.2 all ease-in-out;
+}
+
+.contact:hover {
+    background-color: antiquewhite;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    flex-grow: 1;
+    color: white;
+    font-weight: bold;
+}
+
+.arrow {
+    margin-top: 60px;
+}
+
+.section1, .section2 {
+    display: flex;
+    height: 350px;
+}
+
+.section1 img, .section2 img {
+    height: 350px;
+}
+
+.section1 .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section1 .text-container {
+    width: 70%;
+}
+
+.section2 .left {
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border: solid black;
+}
+
+.left h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
